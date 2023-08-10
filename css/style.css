@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+.footer{
+    margin-top: 10px;
+}
+
+.nav-container{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+.right-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: flex-start;
+    position: relative;
+}
+
+.right-nav ul li{
+    padding: 10px;
+    height: 100%;
+}
+
+.right-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.right-nav ul img{
+    width: 50px;
+    transition: 1s;
+}
+.right-nav ul img:hover{
+    transform: scale(1.5);
+}
+.r-nav-items{
+    padding: 10px;
+    height: 100%;
+    margin-top: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.r-nav-items:hover{
+    background-color: #04AA6D;
+    height: 100%;
+    transform: scale(1.1);
+}
+
+.left-nav ul{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+
+.sign-up{
+    position: relative;
+    background-color: #04AA6D;
+    text-align: center;
+    left: 25px;
+    border-radius: 40px;
+    width: 100px;
+}
+.sign-up:hover{
+    background-color: #04bb78;
+}
+.log-in{
+    background-color: #0598628c;
+    text-align: center;
+    border-radius: 20px 40px 40px 20px;
+    width: 120px;
+}
+.log-in:hover{
+    background-color: #018353;
+}
+.l-items{
+    padding: 15px;
+    border-radius: 30px;
+
+}
+.l-items:hover{
+    background-color: rgb(245, 245, 245);
+
+}
+
+
+
+.bottom-nav{
+
+    z-index: 1;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #282A35;
+}
+.bottom-nav ul{
+    list-style: none;
+}
+.bottom-nav ul li{
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.bottom-nav ul li:hover{
+    background-color: black;
+    transform: translateY(-7px);
+
+}
+
+.bottom-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    width: bold;
+}
+
+
+
+/* -----------------------------HTML PAGE---------------------------- */
+
+
+.html-page{
+    /* position: relative; */
+    margin-top: 30px;
+    background-color: #282A35;
+    height: 500px;
+    text-align: center;
+}
+
+.html-container{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50%;
+    transform: translate(-50% , -50%);  
+}
+
+.html-container h1{
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 70px;
+}
+.html-container h4{
+    margin-bottom: 50px;
+    font-size: 23px;
+    color:#FFC0C7;
+}
+
+.html-container h3 {
+    margin-top: 50px;
+}
+.html-container h3 a{
+    color: #fff;
+}
+
+.html-container input{
+    width: 500px;
+    height: 30px;
+    border-radius: 20px 0 0 20px;
+}
+
+#search{
+    position: absolute;
+    right: -12px;
+    color: #fff;
+    width: 50px;
+    height: 30px;
+    border-radius: 0 40px 40px 0;
+    background-color: #04AA6D;
+    cursor: pointer;
+}
+
+
+/* ---------------------------LG WEB--------------------- */
+.html-learn{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+    background-color: #D9EEE1;
+}
+
+.r-section{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.r-section h1{
+    font-size: 100px;
+    font-weight: 700px;
+}
+.r-section h3{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.r-section a{
+    text-decoration: none;
+    width: 200px;
+    /* height: 45px; */
+    margin: 10px auto;
+    font-size: 18px;
+    line-height: 1.8;
+    border-radius: 35px;
+}
+
+#first-a{
+    color: #fff;
+    background: #04AA6D;
+}
+#first-a:hover{
+    background-color: #018353;
+}
+#second-a{
+    background-color: #FFF4A3;
+    color: black;
+}
+#second-a:hover{
+    background-color: #dfd26f;
+}
+#third-a{
+    color: #fff;
+    background-color: #282A35;
+}
+#forth-a{
+    color: black;
+    background-color: #FFC0C7;
+}
+
+#forth-a:hover{
+    background-color: #fab6be;
+}
+
+
+
+.l-section{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #E7E9EB;;
+    padding: 15px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px black;
+}
+
+.l-section h1{
+    text-align: left;
+    padding: 20px 0;
+
+}
+
+.example{
+    background-color:#fff;
+    height: 300px;
+    line-height: 2;
+    text-align: justify;
+    font-size: 20px;
+    border-left: 5px solid #04AA6D ;
+    padding: 10px;
+}
+
+.l-section a{
+    text-decoration: none;
+    color: #fff;
+    width: 170px;
+    text-align: center;
+    background-color: #04AA6D;
+    border-radius: 25px;
+    position: absolute;
+    margin-top: 35px;
+}
+
+.l-section a:hover{
+    background-color: #018353;
+}
+
+
+
+/* ----------------------CSS LEARN----------------  */
+
+
+.css-learn{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    /* align-items: center; */
+    background-color: #FFF4A3;
+}
+
+
+/* <!-- -----------------------SECTION TUTORIALS------------------------  --> */
+.tutorials{
+    background-color: #282A35;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center;
+}
+.tutorials div{
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    /* position: absolute; */
+    transition: 1s;
+}
+
+.tutorials div:hover{
+    transform: translateY(-7px);
+    box-shadow:  0 0 10px 5px gold;
+}
+
+.tutorials h1{
+    font-size: 50px;
+    padding: 15px;
+}
+.tutorials p{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.tutorials a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #282A35;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    line-height: 2.3;   
+    border-radius:35px ;
+    margin-bottom: 10px;
+}
+
+.tutorials-item-1{
+    background-color: #FFC0C7;
+
+}
+.tutorials-item-2{
+    background-color: #FFF4A3;
+    flex-direction: row;
+
+}
+.tutorials-item-3{
+    background-color: #F3ECEA;
+
+}
+.tutorials-item-4{
+    background-color: #D9EEE1;
+
+}
+.tutorials-item-5{
+    background-color: #96D4D4;
+
+}
+.tutorials-item-6{
+    background-color: #E7E9EB;
+
+}
